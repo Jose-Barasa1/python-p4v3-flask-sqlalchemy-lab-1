@@ -47,4 +47,4 @@ class TestApp:
         assert response_json["message"] == "Earthquake 9999 not found."
 
         # confirm status
-        assert response.status_code == 404
+        assert response.status_code == 404 
